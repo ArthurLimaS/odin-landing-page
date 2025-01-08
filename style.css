@@ -1,53 +1,43 @@
 * {
-    font-family: 'Roboto', 'Times New Roman', Times, serif;
-    /* border: 1px red solid; */
+    font-family: 'Roboto';
 }
 
 body {
     margin: 0;
 }
 
-.header, .footer {
+.header {
     background-color: #1f2937;
+
+    padding: 0 15vw;
 }
 
 .header-bar {
     display: flex;
+
     justify-content: space-between;
     align-items: center;
 }
 
-.header-bar h3 {
+.header-logo {
+    margin: 0;
+
     color: #f9faf8;
 
-    margin: 0;
+    font-size: 24px;
 }
 
-.header-bar ul {
-    display: flex;
-    gap: 8px;
-
-    padding: 0;
+.header-links {
     margin: 0;
+
+    display: flex;
+    gap: 24px;
 
     list-style-type: none;
 }
 
-.header-bar li {
+.header-links li {
     color: #e5e7eb;
-}
 
-.header-intro {
-    display: flex;
-}
-
-.header-intro h1 {
-    color: #f9faf8;
-
-    font-size: 48px;
-    font-weight: 900;
-}
-
-.header-intro p {
-    color: #e5e7eb;
+    font-size: 18px;
 }
