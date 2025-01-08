@@ -1,15 +1,19 @@
 * {
     font-family: 'Roboto';
+
+    box-sizing: border-box;
 }
 
 body {
     margin: 0;
 }
 
+/* First section - HEADER */
+
 .header {
     background-color: #1f2937;
 
-    padding: 0 15vw;
+    padding: 16px 15vw 96px;
 }
 
 .header-bar {
@@ -29,6 +33,7 @@ body {
 
 .header-links {
     margin: 0;
+    padding: 0;
 
     display: flex;
     gap: 24px;
@@ -40,4 +45,43 @@ body {
     color: #e5e7eb;
 
     font-size: 18px;
+}
+
+.header-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 24px;
+
+    margin: 96px 0 0;
+}
+
+.header-intro h1 {
+    color: #f9faf8;
+
+    margin: 0;
+
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header-intro p {
+    color: #e5e7eb;
+
+    margin: 12px 0;
+
+    font-size: 18px;
+}
+
+.header-intro button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 700;
+
+    padding: 6px 30px;
+    
+    border-radius: 10px;
+    border-style: none;
 }
