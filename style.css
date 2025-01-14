@@ -206,3 +206,20 @@ body {
     border-radius: 10px;
     border-style: solid;
 }
+
+/* Footer */
+
+.footer {
+    background-color: #1f2937;
+
+    padding: 36px 0;
+
+    text-align: center;
+}
+
+.footer p {
+    color: #e5e7eb;
+    font-size: 18px;
+
+    margin: 0;
+}
