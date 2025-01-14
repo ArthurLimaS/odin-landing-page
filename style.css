@@ -97,11 +97,11 @@ body {
 .information {
     text-align: center;
 
-    padding: 32px 20vw 96px;
+    padding: 48px 20vw 96px;
 }
 
 .information h2 {
-    margin: 0 0 32px;
+    margin: 0 0 48px;
 
     color: #1f2937;
 
@@ -160,4 +160,49 @@ body {
     color: #1f2937;
     font-size: 24px;
     font-weight: 800;
+}
+
+/* Fourth section - call to action */
+
+.action {
+    padding: 96px 15vw 96px;
+}
+
+.action-frame {
+    background-color: #3882f6;
+    border-radius: 10px;
+
+    padding: 48px 5vw;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-frame h3 {
+    margin: 0;
+
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.action-frame p {
+    margin: 0;
+
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.action-frame button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 700;
+
+    padding: 6px 30px;
+    
+    border-color: #e5e7eb;
+    border-radius: 10px;
+    border-style: solid;
 }
