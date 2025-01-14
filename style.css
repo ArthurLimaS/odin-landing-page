@@ -89,7 +89,7 @@ body {
 }
 
 .header-intro img {
-    background-color: #e5e7eb;
+    background-color: grey;
 }
 
 /* Second section - random information */
@@ -111,23 +111,29 @@ body {
 
 .inf-contents {
     display: flex;
-    gap: 64px;
+    gap: 48px;
 
     justify-content: center;
     align-items: center;
 }
 
 .content-block {
-    flex-basis: 150px;
+    flex-basis: 170px;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .content-block img {
     border: 3px solid #3882f6;
     border-radius: 15px;
 
-    background-color: red;
+    /* background-color: red; */
 }
 
 .content-block p {
     margin: 4px 0;
+
+    color: #595d64;
+    font-size: 18px;
 }
