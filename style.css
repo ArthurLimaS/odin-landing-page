@@ -3,7 +3,7 @@
 
     box-sizing: border-box;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -95,34 +95,39 @@ body {
 /* Second section - random information */
 
 .information {
-    display: flex;
+    text-align: center;
 
-    flex-direction: column;
-    align-items: center;
-
-    padding: 0 20vw 0;
+    padding: 32px 20vw 96px;
 }
 
 .information h2 {
+    margin: 0 0 32px;
+
     color: #1f2937;
 
     font-size: 36px;
     font-weight: 900;
 }
 
-.all-inf-contents {
+.inf-contents {
     display: flex;
-    gap: 8px;
+    gap: 64px;
 
     justify-content: center;
     align-items: center;
 }
 
-.inf-content {
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-    text-align: center;
+.content-block {
+    flex-basis: 150px;
 }
 
+.content-block img {
+    border: 3px solid #3882f6;
+    border-radius: 15px;
+
+    background-color: red;
+}
+
+.content-block p {
+    margin: 4px 0;
+}
