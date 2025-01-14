@@ -127,8 +127,6 @@ body {
 .content-block img {
     border: 3px solid #3882f6;
     border-radius: 15px;
-
-    /* background-color: red; */
 }
 
 .content-block p {
@@ -136,4 +134,30 @@ body {
 
     color: #595d64;
     font-size: 18px;
+}
+
+/* Third section - Quote */
+
+.quote-section {
+    background-color: #e5e7eb;
+
+    text-align: left;
+
+    padding: 96px 20vw 96px;
+}
+
+.quote {
+    color: #1f2937;
+
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quoter {
+    text-align: right;
+
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 800;
 }
