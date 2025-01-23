@@ -51,12 +51,19 @@ body {
 
 .header-intro {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap-reverse;
 
     gap: 36px;
 
     margin: 96px 0 0;
+}
+
+.header-intro div {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
 }
 
 .header-intro h1 {
@@ -90,6 +97,10 @@ body {
 
 .header-intro img {
     background-color: grey;
+
+    max-width: 500px;
+    width: 100vw;
+    height: auto;
 }
 
 /* Second section - random information */
@@ -112,6 +123,7 @@ body {
 .inf-contents {
     display: flex;
     gap: 48px;
+    flex-wrap: wrap;
 
     justify-content: center;
     align-items: center;
@@ -175,6 +187,8 @@ body {
     padding: 48px 5vw;
 
     display: flex;
+    gap: 16px;
+    /* flex-wrap: wrap; */
 
     justify-content: space-between;
     align-items: center;
@@ -195,6 +209,8 @@ body {
 }
 
 .action-frame button {
+    flex-shrink: 0;
+
     background-color: #3882f6;
     color: #e5e7eb;
     font-size: 18px;
